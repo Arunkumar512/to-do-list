@@ -22,14 +22,46 @@
             background-position: center;
             background-size: auto;
         }
+
+        .mainform {
+            position: absolute;
+            align-content: center;
+
+
+        }
+
+        #todocontainer {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #addtask {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background: white;
+            position: relative;
+
+
+        }
     </style>
 </head>
 
 <body>
     <header></header>
     <div class="mainform">
+        <div id="todocontainer">
+            <h2> To do list </h2>
+            <button> switch</button>
+        </div>
+        <div id="addtask">
+            <input placeholder="Add a task to the list..." type="text">
+            <img src="https://img.icons8.com/material-sharp/24/000000/add-to-favorites.png" />
 
-
+        </div>
     </div>
 
 </body>
