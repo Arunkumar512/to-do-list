@@ -24,27 +24,40 @@
         }
 
         .mainform {
-            position: absolute;
-            align-content: center;
-
+            position: relative;
+            top: -80px;
+            height: 60vh;
+            width: 40vw;
+            margin-left: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid red;
+            border-radius: 25px;
 
         }
 
-        #todocontainer {
-            position: relative;
+        div#todocontainer {
+            position: absolute;
+            top: 0px;
+            width: 30vw;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
+
+
 
         }
 
         #addtask {
+            position: absolute;
+            top: 40px;
+            width: 30vw;
+            height: 5vh;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-between;
             background: white;
-            position: relative;
-
 
         }
     </style>
